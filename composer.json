@@ -18,6 +18,12 @@
   "type": "project",
   "minimum-stability": "dev",
   "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/corradocoia/web"
+    }
+  ],
   "require": {
     "php": "^7.3",
     "fideloper/proxy": "^4.0",
@@ -28,7 +34,7 @@
     "eveseat/eveapi": "^4.0",
     "eveseat/notifications": "^4.0",
     "eveseat/services": "^4.0",
-    "eveseat/web": "dev-landing-page as 4.11.x-dev",
+    "eveseat/web": "dev-master as 4.0",
     "ext-pdo": "*",
     "kassie/calendar": "^4.0"
   },
@@ -59,7 +65,7 @@
       ]
     },
     "branch-alias": {
-      "dev-vultur3": "4.11.x-dev"
+      "dev-master": "4.0"
     }
   },
   "scripts": {
