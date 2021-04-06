@@ -29,7 +29,8 @@
     "eveseat/notifications": "^4.0",
     "eveseat/services": "^4.0",
     "eveseat/web": "dev-master as 4.0",
-    "ext-pdo": "*"
+    "ext-pdo": "*",
+    "kassie/calendar": "^4.0"
   },
   "require-dev": {
     "facade/ignition": "^1.4",
