@@ -1,6 +1,12 @@
 {
   "name": "eveseat/seat",
   "description": "Simple Eve Api Tool",
+  "repositories": [
+    {
+      "type": "path",
+      "url": "~/whboo_web"
+    }
+  ],
   "keywords": [
     "eve",
     "online",
@@ -22,7 +28,7 @@
     "eveseat/eveapi": "^4.0",
     "eveseat/notifications": "^4.0",
     "eveseat/services": "^4.0",
-    "eveseat/web": "^4.0",
+    "eveseat/web": "dev-landing-page as 4.11.x-dev",
     "ext-pdo": "*"
   },
   "require-dev": {
@@ -50,6 +56,9 @@
     "laravel": {
       "dont-discover": [
       ]
+    },
+    "branch-alias": {
+      "dev-landing-page": "4.11.x-dev"
     }
   },
   "scripts": {
