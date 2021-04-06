@@ -29,7 +29,8 @@
     "eveseat/notifications": "^4.0",
     "eveseat/services": "^4.0",
     "eveseat/web": "dev-landing-page as 4.11.x-dev",
-    "ext-pdo": "*"
+    "ext-pdo": "*",
+    "kassie/calendar": "^4.0"
   },
   "require-dev": {
     "facade/ignition": "^1.4",
@@ -58,7 +59,7 @@
       ]
     },
     "branch-alias": {
-      "dev-landing-page": "4.11.x-dev"
+      "dev-vultur3": "4.11.x-dev"
     }
   },
   "scripts": {
